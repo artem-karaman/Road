@@ -50,4 +50,14 @@ public class GuiManager : MonoBehaviour
     {
         maxSpeedCar = FindObjectOfType<WheelJointCarMovement>().maxFwdSpeed += 200;
     }
+
+    public void PlusAccel()
+    {
+        accelerationCar = FindObjectOfType<WheelJointCarMovement>().accelerationRate += 100;
+    }
+
+    public void MinusAccel()
+    {
+        accelerationCar = FindObjectOfType<WheelJointCarMovement>().accelerationRate -= 100;
+    }
 }
