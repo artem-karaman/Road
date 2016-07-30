@@ -9,20 +9,15 @@ public class GuiManager : MonoBehaviour
     public Text maxSpeed;
     public Text acceleration;
     public Text currentSpeed;
+
     private float maxSpeedCar;
     private float accelerationCar;
     private float currentSpeedCar;
 
-    void Awake()
-    {
-       
-    }
-
-	// Use this for initialization
+   // Use this for initialization
 	void Start ()
 	{
 	    Show();
-
 	}
 	
 	// Update is called once per frame
@@ -60,4 +55,6 @@ public class GuiManager : MonoBehaviour
     {
         accelerationCar = FindObjectOfType<WheelJointCarMovement>().accelerationRate -= 100;
     }
+
+    
 }
