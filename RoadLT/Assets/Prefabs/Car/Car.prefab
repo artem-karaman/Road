@@ -13,7 +13,7 @@ GameObject:
   - 50: {fileID: 5044920}
   m_Layer: 10
   m_Name: FrontWheel
-  m_TagString: Untagged
+  m_TagString: FrontWheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - 50: {fileID: 5058416}
   m_Layer: 10
   m_Name: RearWheel
-  m_TagString: Untagged
+  m_TagString: RearWheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,6 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e4a1fc2793e95499b1fe5691253a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheelJoints: []
   centerOfMass: {fileID: 482858}
   maxFwdSpeed: -5000
   maxBwdSpeed: 2000
