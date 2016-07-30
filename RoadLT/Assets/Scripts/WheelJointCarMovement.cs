@@ -5,7 +5,7 @@ using UnityEditor;
 public class WheelJointCarMovement : MonoBehaviour
 {
 
-    private WheelJoint2D[] wheelJoints;
+    public WheelJoint2D[] wheelJoints;
 
     public Transform centerOfMass;
 
