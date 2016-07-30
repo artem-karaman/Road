@@ -15,7 +15,6 @@ public class Generator : MonoBehaviour
         //Надо узнать какой метод выполняется в первую очередь и туда запихнуть получение машины
 	    //car = Resources.Load("Car") as GameObject;
         Spawn();
-
     }
     
 	// Update is called once per frame
@@ -40,11 +39,7 @@ public class Generator : MonoBehaviour
             //        Debug.Log(point.x);
             //    }
             //}
-            
         }
-
-
-
         Instantiate(car, new Vector3(0, 5, 0), Quaternion.identity);
     }
 }
